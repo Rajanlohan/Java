@@ -1,0 +1,23 @@
+package aaa;
+
+public class CountObject {
+
+	public static void main(String[] args) {
+
+		A obj = new A();
+		A obj1 = new A();
+		A obj2 = new A();
+		
+	}
+
+}
+class A{
+	int i;
+	
+	public A() {
+		i++;
+	}
+	public void count() {
+		System.out.println(i);
+	}
+}
